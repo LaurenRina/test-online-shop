@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "./pages/Homepage";
-import List from "./pages/List";
-import Product from "./pages/Product";
-import Bag from "./pages/Bag";
-import Profile from "./pages/Profile";
-import Authorization from "./pages/Authorization";
+import Homepage from "./Homepage";
+import List from "./List";
+import Product from "./Product";
+import Bag from "./Bag";
+import Profile from "./Profile";
+import Authorization from "./Authorization";
 import "./styles/App.css";
 
 function Main() {
