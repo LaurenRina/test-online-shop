@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Bag.css";
+import "./styles/Bag.css";
 
 export default function Bag() {
   return (

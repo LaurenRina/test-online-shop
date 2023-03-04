@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/List.css";
+import "./styles/List.css";
 
 export default function List() {
   const products = [
