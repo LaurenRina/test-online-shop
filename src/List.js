@@ -13,7 +13,7 @@ export default function List() {
   ];
   return (
     <>
-      <div id="list">
+      <div className="list">
         <section className="category-top">
           <h1 className="category-title">Одяг</h1>
           <div className="category-top__container"></div>

@@ -1,0 +1,107 @@
+.account {
+  display: flex;
+  justify-content: center;
+}
+.account-title-wr {
+  padding: 52px 0 0 0;
+}
+.account-title-wr .account-title {
+  margin: 0;
+  letter-spacing: 3px;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 20px;
+}
+.account-title {
+  text-align: center;
+  font-size: 23px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  padding: 0 10px 20px 10px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.account {
+  display: flex;
+  min-height: 400px;
+}
+.account-content {
+  width: calc(100% - 270px);
+  margin-top: 0;
+}
+.account-form.account-form-profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.account-form .account-form__item {
+  margin-bottom: 15px;
+  width: 305px;
+}
+.account-form.account-form-profile .account-form__item {
+  margin-right: 25px;
+}
+.form-group .control-label,
+.form-group label {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 13px;
+  line-height: 12px;
+  font-weight: 500;
+  color: #a3a2a2;
+}
+.form-questions__item {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.account-form .form-questions__item {
+  margin-bottom: 0;
+}
+.form-questions__item input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d8d8d8;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #515151;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 35px;
+}
+.account-content .account-form__item .form-questions__item input {
+  height: 44px;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.account-form__btn {
+  max-width: 305px;
+}
+.account-form__btn .button-cart {
+  max-width: none;
+}
+.button-cart {
+  display: inline-block;
+  width: 100%;
+  max-width: 230px;
+  background: #00ab5a;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  color: #fff;
+  height: 43px;
+  font-size: 11px;
+  line-height: 43px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.4s linear;
+}

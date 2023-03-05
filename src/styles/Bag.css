@@ -1,0 +1,45 @@
+.bag {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-top: 118px;
+  position: relative;
+}
+.empty-bag {
+  padding-top: 123px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.bag-title {
+  display: block;
+  font-size: 23px;
+  line-height: 31px;
+  letter-spacing: 3px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #333;
+  padding-bottom: 17px;
+  font-weight: 700;
+}
+.empty-bag__text {
+  padding-bottom: 40px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.button-bag {
+  display: inline-block;
+  width: 100%;
+  max-width: 230px;
+  background: #00ab5a;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  color: #fff;
+  height: 43px;
+  font-size: 11px;
+  line-height: 43px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.4s linear;
+}

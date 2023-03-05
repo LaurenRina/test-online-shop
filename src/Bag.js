@@ -5,10 +5,18 @@ import "./styles/Bag.css";
 export default function Bag() {
   return (
     <>
-      <div id="bag">
-        <Link to="/list" className="link">
-          Back to shopping
-        </Link>
+      <div className="bag">
+        <section className="empty-bag">
+          <h2 className="bag-title">ВАШ КОШИК ПОРОЖНІЙ</h2>
+          <div className="empty-bag__content">
+            <p className="empty-bag__text">
+              Додайте щось, щоб заощадити час та зробити шопінг ще приємнішим.
+            </p>
+            <Link to="/authorization" className="button-bag">
+              Почати шопінг
+            </Link>
+          </div>
+        </section>
       </div>
     </>
   );
