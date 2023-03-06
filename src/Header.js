@@ -19,12 +19,12 @@ function Item(props) {
 
 function Header() {
   const menu = [
-    "жінкам",
-    "чоловікам",
-    "дім та декор",
-    "косметика",
-    "бренди",
-    "інше",
+    { name: "жінкам", id: 1 },
+    { name: "чоловікам", id: 2 },
+    { name: "дім та декор", id: 3 },
+    { name: "косметика", id: 4 },
+    { name: "бренди", id: 5 },
+    { name: "інше", id: 6 },
   ];
   return (
     <header className="header">
@@ -61,7 +61,7 @@ function Header() {
         <nav className="header__menu header-menu container">
           <ul className="header-menu__menu-list">
             {menu.map((item) => (
-              <Item name={item} />
+              <Item name={item.name} key={item.id} />
             ))}
           </ul>
         </nav>

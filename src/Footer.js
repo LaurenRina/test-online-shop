@@ -6,8 +6,16 @@ function Item(props) {
 }
 
 function Footer() {
-  const clients = ["доставка", "оплата", "поширені запитання", "контакти"];
-  const partners = ["приєднатися до платформи", "преса про нас"];
+  const clients = [
+    { name: "доставка", id: 1 },
+    { name: "оплата", id: 2 },
+    { name: "поширені запитання", id: 3 },
+    { name: "контакти", id: 4 },
+  ];
+  const partners = [
+    { name: "приєднатися до платформи", id: 1 },
+    { name: "преса про нас", id: 2 },
+  ];
   return (
     <>
       <footer className="footer">
@@ -41,7 +49,7 @@ function Footer() {
                   <div className="_spoller__content footer-spoller__body">
                     <ul>
                       {clients.map((item) => (
-                        <Item name={item} />
+                        <Item name={item.name} key={item.id} />
                       ))}
                     </ul>
                   </div>
@@ -53,7 +61,7 @@ function Footer() {
                   <div className="_spoller__content footer-spoller__body">
                     <ul>
                       {partners.map((item) => (
-                        <Item name={item} />
+                        <Item name={item.name} key={item.id} />
                       ))}
                     </ul>
                   </div>
